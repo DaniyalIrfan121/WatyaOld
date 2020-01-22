@@ -2,12 +2,13 @@
 <MotionScene xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <Transition
-        app:constraintSetEnd="@layout/home_fragment_new_motion_end_scene"
-        app:constraintSetStart="@layout/home_fragment_new_motion_start_scene">
+        app:constraintSetEnd="@layout/myfragment_layout_end_state"
+        app:constraintSetStart="@layout/myfragment_layout"
+        app:duration="500">
+
         <OnSwipe
             app:dragDirection="dragUp"
-            app:touchAnchorId="@id/recycler_Category"
-            app:moveWhenScrollAtTop="@+id/recycler_Category"
+            app:touchAnchorId="@id/scrollableContent"
             app:touchAnchorSide="top" />
     </Transition>
 
