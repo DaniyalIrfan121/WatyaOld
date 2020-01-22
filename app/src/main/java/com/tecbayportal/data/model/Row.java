@@ -1,4 +1,4 @@
-package com.data.model;
+package com.tecbayportal.data.model;
 
 public class Row {
 

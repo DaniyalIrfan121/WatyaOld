@@ -10,7 +10,7 @@ import android.widget.ImageView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.data.model.Row;
+import com.tecbayportal.data.model.Row;
 import com.tecbayportal.watya.R;
 
 import java.util.List;

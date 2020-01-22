@@ -2,8 +2,6 @@ package com.tecbayportal.ui.fragments.homefragment;
 
 import androidx.lifecycle.ViewModelProviders;
 
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -17,7 +15,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.data.model.Row;
+import com.tecbayportal.data.model.Row;
 import com.tecbayportal.adapters.HomeSliderAdapter;
 import com.tecbayportal.adapters.StaggeredRecyclerAdapter;
 import com.tecbayportal.watya.R;
